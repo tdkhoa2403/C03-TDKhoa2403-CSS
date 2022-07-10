@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+.cover {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/cover.jpg);
+    color: #fff;
+    position: relative;
+}
+.cover h1 {
+    position: absolute;
+    left: 350px;
+    top: 200px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    border: 10px solid #fff;
+    position: relative;
+    top: -170px;
+}
